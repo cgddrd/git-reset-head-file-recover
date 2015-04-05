@@ -21,4 +21,4 @@ This project is heavily based on an existing Python script provided by user 'Boy
 
         python recover_git_blobs.py allhashes.txt
 
-3. The script will export a collection of files containing the contents of each cached "unreachable blob". The user can then serach through the contents of these files in order to try and find the file they wish to recover.
+3. The script will export a collection of files containing the contents of each cached "unreachable blob". The user can then search through the contents of these files in order to try and find the file they wish to recover.
