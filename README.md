@@ -15,10 +15,10 @@ This project is heavily based on an existing Python script provided by user 'Boy
 
 1. Ask Git to list all "unreachable blobs" (i.e. files not added/commit and now unreachable) and pipe this to a file.
 
-        git fsck --cache --unreachable $(git for-each-ref --format="%(objectname)") > allhashes.txt
+        git fsck --cache --unreachable $(git for-each-ref --format="%(objectname)") > <export_filename>
 
 2. Run the Python script.
 
-        python recover_git_blobs.py allhashes.txt
+        python recover_git_blobs.py <export_filename>
 
 3. The script will export a collection of files containing the contents of each cached "unreachable blob". The user can then search through the contents of these files in order to try and find the file they wish to recover.
