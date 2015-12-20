@@ -3,7 +3,7 @@ A Python script to try recover lost files following a mistaken 'git reset --hard
 
 ## Disclaimer
 
-This software **does not, in any way possible** promise to recover any of your files. It simply provides a mechanism for which to **try** and recover files yet to be rmeoved by the `git` garbage collector. 
+This software **does not, in any way** promise to recover any of your files. It simply provides a mechanism for which to **try** and recover files yet to be removed by the `git` garbage collector. 
 
 The author takes **no responsibility or liability** for any damages to files, software or hardware caused as a result of using this software.
 
